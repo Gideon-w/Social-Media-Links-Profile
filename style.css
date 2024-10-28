@@ -55,7 +55,7 @@ figcaption {
 }
 @media (max-width: 24.8125em){
   .heading-primary{ 
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + .8vw);
   }
 }
 span {
