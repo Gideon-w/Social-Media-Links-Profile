@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot%202024-06-06%20at%2021-53-16%20Frontend%20Mentor%20Social%20links%20profile.png)
+![](Screenshot%202024-06-06%20at%2021-53-16%20Frontend%20Mentor%20Social%20links%20profile.png.png)
 
 ### Links
 
