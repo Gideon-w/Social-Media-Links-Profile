@@ -53,6 +53,9 @@ figcaption {
   font-size: calc(1.5rem + 1vw);
   margin-bottom: 1em;
 }
+.heading-primary{
+  color: var(--Neutral-White);
+}
 @media (max-width: 24.8125em){
   .heading-primary{ 
   font-size: calc(1rem + .8vw);
