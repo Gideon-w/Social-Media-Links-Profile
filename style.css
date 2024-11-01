@@ -23,12 +23,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+@media (max-width: 24.875em) {
+  html {
+    font-size: 82.5%;
+  }
+}
+@media (max-width: 20.5em) {
+  html {
+    font-size: 70%;
+  }
+}
 body {
   background-color: var(--Neutral-gray);
   padding-block: 10em;
 }
-.conatiner {
+.container {
   background-color: var(--Neutral-OffBlack);
   padding-block: 5em;
 }
@@ -50,17 +59,18 @@ figcaption {
   font-family: var(--FF-type, sans-serif);
   font-weight: var(--FW-bold);
   color: var(--Neutral-White);
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(1.5rem + 0.3vw);
   margin-bottom: 1em;
 }
-.heading-primary{
+.heading-primary {
   color: var(--Neutral-White);
-  font-size: calc(1rem + .8vw);
+  font-size: 1rem;
 }
 span {
   display: block;
   color: var(--Primary-Green);
-  font-size: calc(0.5rem + 1.1vw);
+  font-size: calc(0.7rem + 0.5vw);
+  margin-top: 0.4rem;
 }
 p {
   font-family: var(--FF-type, sans-serif);
